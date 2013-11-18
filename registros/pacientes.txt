@@ -1,0 +1,1 @@
+paciente('1','Mateus Desiderio','01/01/1993','MG-11.111.111','111.111.111-11','Rua das Batatas','123','Casa','Santo Antônio','Araxá','38180-000','MG','34-3333-3333','34-8888-8888','Thomas Wislow','34-9999-9999','222.222.222-22','UNIMED','Paciente com queixas de dores e mal estar').

@@ -1,0 +1,4 @@
+usuario('1','1','Diogo Bernini','diogo','123','diogo@diogobernini.com').
+usuario('2','2','Gabriella Silveira','gabi','123','gabriela@diogobernini.com').
+usuario('3','3','Rafael de Oliveira Cunha','rafa','123','rafael@diogobernini.com').
+usuario('4','1','Marcelo','marcelo','123','marcelo@facom.ufu.br').

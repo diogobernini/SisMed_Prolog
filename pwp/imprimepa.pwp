@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>SisMed Prolog</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+  <div id="logo">
+    <h1>ProSisMed</h1>
+  </div>
+</div>
+<hr />
+<div id="page">
+  <div id="bg"><!-- end contentn --><!-- end sidebar -->
+    <div style="clear: both;">
+      <p>
+      <h2><center>PRONTUÁRIO DO PACIENTE</center></h2></p>
+      <table pwp:ask="findall([ID,Nome,DataEntrada,DataSaida,HoraEntrada,HoraSaida,HistoricoSaude,PrescMedica,EvoluMedica,PrescEnfermagem,EvoluEnfermagem,Anotacoes,ResultadoExame,ResultadoExameIm,PrescNutri,EvoluNutri,Divergencias], prontuario(ID,Nome,DataEntrada,DataSaida,HoraEntrada,HoraSaida,HistoricoSaude,PrescMedica,EvoluMedica,PrescEnfermagem,EvoluEnfermagem,Anotacoes,ResultadoExame,ResultadoExameIm,PrescNutri,EvoluNutri,Divergencias), Lista1)" width="866" border="1" align="center">
+        <tr pwp:ask="member([ID,Nome,DataEntrada,DataSaida,HoraEntrada,HoraSaida,HistoricoSaude,PrescMedica,EvoluMedica,PrescEnfermagem,EvoluEnfermagem,Anotacoes,ResultadoExame,ResultadoExameIm,PrescNutri,EvoluNutri,Divergencias], Lista1)">
+          <td width="175" class="cabecalho">Nome do Paciente</td>
+          <td width="675" pwp:use="Nome" />
+        </tr>
+        <tr pwp:ask="member([ID,Nome,DataEntrada,DataSaida,HoraEntrada,HoraSaida,HistoricoSaude,PrescMedica,EvoluMedica,PrescEnfermagem,EvoluEnfermagem,Anotacoes,ResultadoExame,ResultadoExameIm,PrescNutri,EvoluNutri,Divergencias], Lista1)">
+          <td width="127" class="cabecalho">Data de Entrada</td>
+          <td pwp:use="DataEntrada" />
+        </tr>
+        <tr pwp:ask="member([ID,Nome,DataEntrada,DataSaida,HoraEntrada,HoraSaida,HistoricoSaude,PrescMedica,EvoluMedica,PrescEnfermagem,EvoluEnfermagem,Anotacoes,ResultadoExame,ResultadoExameIm,PrescNutri,EvoluNutri,Divergencias], Lista1)">
+          <td width="127" class="cabecalho">Hora de Entrada</td>
+          <td pwp:use="HoraEntrada" />
+        </tr>
+        <tr pwp:ask="member([ID,Nome,DataEntrada,DataSaida,HoraEntrada,HoraSaida,HistoricoSaude,PrescMedica,EvoluMedica,PrescEnfermagem,EvoluEnfermagem,Anotacoes,ResultadoExame,ResultadoExameIm,PrescNutri,EvoluNutri,Divergencias], Lista1)">
+          <td width="127" class="cabecalho">Data de Saída</td>
+          <td pwp:use="DataSaida" />
+        </tr>
+        <tr pwp:ask="member([ID,Nome,DataEntrada,DataSaida,HoraEntrada,HoraSaida,HistoricoSaude,PrescMedica,EvoluMedica,PrescEnfermagem,EvoluEnfermagem,Anotacoes,ResultadoExame,ResultadoExameIm,PrescNutri,EvoluNutri,Divergencias], Lista1)">
+          <td width="127" class="cabecalho">Hora de Saida</td>
+          <td pwp:use="HoraSaida" />
+        </tr>
+      </table>
+      <br />
+      <table pwp:ask="findall([ID,Nome,DataEntrada,DataSaida,HoraEntrada,HoraSaida,HistoricoSaude,PrescMedica,EvoluMedica,PrescEnfermagem,EvoluEnfermagem,Anotacoes,ResultadoExame,ResultadoExameIm,PrescNutri,EvoluNutri,Divergencias], prontuario(ID,Nome,DataEntrada,DataSaida,HoraEntrada,HoraSaida,HistoricoSaude,PrescMedica,EvoluMedica,PrescEnfermagem,EvoluEnfermagem,Anotacoes,ResultadoExame,ResultadoExameIm,PrescNutri,EvoluNutri,Divergencias), Lista2)" width="867" border="1" align="center">
+        <tr pwp:ask="member([ID,Nome,DataEntrada,DataSaida,HoraEntrada,HoraSaida,HistoricoSaude,PrescMedica,EvoluMedica,PrescEnfermagem,EvoluEnfermagem,Anotacoes,ResultadoExame,ResultadoExameIm,PrescNutri,EvoluNutri,Divergencias], Lista2)">
+          <td width="259" height="100" class="cabecalho">Histórico de Saúde</td>
+          <td pwp:use="HistoricoSaude" />
+        </tr>
+        <tr pwp:ask="member([ID,Nome,DataEntrada,DataSaida,HoraEntrada,HoraSaida,HistoricoSaude,PrescMedica,EvoluMedica,PrescEnfermagem,EvoluEnfermagem,Anotacoes,ResultadoExame,ResultadoExameIm,PrescNutri,EvoluNutri,Divergencias], Lista2)">
+          <td width="259" height="100" class="cabecalho">Prescrição Médica</td>
+          <td pwp:use="PrescMedica" />
+        </tr>
+        <tr pwp:ask="member([ID,Nome,DataEntrada,DataSaida,HoraEntrada,HoraSaida,HistoricoSaude,PrescMedica,EvoluMedica,PrescEnfermagem,EvoluEnfermagem,Anotacoes,ResultadoExame,ResultadoExameIm,PrescNutri,EvoluNutri,Divergencias], Lista2)">
+          <td width="259" height="100" class="cabecalho">Evolução Médica</td>
+          <td pwp:use="EvoluMedica" />
+        </tr>
+        <tr>
+          <td height="100" class="cabecalho">Evolução Médica</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="100" class="cabecalho">Prescrição de Enfermagem</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="100" class="cabecalho">Evolução de Enfermagem</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="100" class="cabecalho">Prescrição de Nutricionista</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="100" class="cabecalho">Evolução de Nutricionista</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="100" class="cabecalho">Resultados de Exames</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="100" class="cabecalho">Resultados de Exames de Imagem</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="100" class="cabecalho">Anotações</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="100" class="cabecalho">Divergências entre Fatura e Prontuário</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table><br />
+      <table width="200" border="0" align="center">
+  <tr>
+    <td><a href="javascript:window.print()">IMPRIMIR</a></td>
+    <td><a href="javascript:history.back()">Voltar</a></td>
+  </tr>
+</table><br /><br />
+    </div>
+  </div>
+</div>
+<!-- end page -->
+<hr />
+<div id="footer">
+  <p>Diogo Bernini Milagres - 11211BSI205</p>
+</div>
+</body>
+</html>

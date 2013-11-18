@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>SisMed Prolog</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+  <div id="logo">
+    <h1>ProSisMed</h1>
+  </div>
+</div>
+<hr />
+<div id="page">
+  <div id="bg">
+    <div id="content">
+      <div class="post" style="padding-top: 57px;">
+      
+        <div class="entry">
+          <p>Medicamentos</p>
+          
+          <table border="1">
+            <tr class="cabecalho">
+              <td width="129">Descrição do medicamento</td>
+              <td width="74">Quantidade</td>
+              <td width="87">Valor Unitário (R$)</td>
+              <td width="79">Valor Total(R$)</td>
+              <td width="69">Número Sequencial</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>	
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+          <br />
+            <table width="78" height="39" border="0">
+  <tr>
+    <td width="72">Voltar</td>
+  </tr>
+</table>
+
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+    <!-- end contentn -->
+    <div id="sidebar">
+      <div id="about-box">
+        <h2>FERRAMENTA APLICADA AO SETOR DE ENFERMAGEM <br />
+        DE UM HOSPITAL</h2>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <!-- end sidebar -->
+    <div style="clear: both;">&nbsp;</div>
+  </div>
+</div>
+<!-- end page -->
+<hr />
+<div id="footer">
+  <p>Diogo Bernini Milagres - 11211BSI205</p>
+</div>
+</body>
+</html>
